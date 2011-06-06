@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+/* Custom Header 
+---------------------------------------------------------------------*/
+header#holup {
+	background-color: #282828;
+	width:100%;
+	background:-webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.2, rgb(39,38,34)),
+		color-stop(0.8, rgb(50,50,50))
+	);
+	background: -moz-linear-gradient(
+		center bottom,
+		rgb(39,38,34) 20%,
+		rgb(50,50,50) 80%
+	);
+}
+.headerMenu{
+    font-size: 13px;
+    padding-top:20px;
+    color:white;
+}
+.headerMenu a:link,
+.headerMenu a:visited
+{
+    font-weight: normal;
+    color:white;
+}
+.headerMenu ul , .headerMenu ul li
+{
+    display: inline;
+}
+
+
+/* Custom Page title
+---------------------------------------------------------------------*/
+
+#judul {
+    color:#FFF;
+    font:bold 2.4em/26px 'Trebuchet MS',Trebuchet,Arial,sans-serif;
+    text-shadow:1px 1px 3px #111;
+}
+#judul2
+{
+    font:bold 16px Georgia,"Times New Roman",Times,serif;
+}
+
+
+/* Custom Navigation 
+---------------------------------------------------------------------*/
+.td_peraturan1	{ vertical-align:top; background: #FFFFFF; padding: 0px 5px 0px 5px;}
+#navlistnoline	{ margin-left: 0; margin-top: 5px; margin-bottom:0;  padding-left: 0;}
+#navlistnoline li { list-style: none;padding-left: 10px; background-image: url(../images/arrow02.jpg); background-repeat: no-repeat; background-position: 0 .6em;  padding-top:2px; padding-bottom: 2px; }
+#navlistnoline a, #navlistnoline a:visited, #navlistnoline a:link  { color: #004276; text-decoration: none; font-family:tahoma, verdana, arial;font-weight:bold;}
+#navlistnoline a:hover	{ color:#B79C00; text-decoration: underline;}
+
+
+
+/* Custom Footer 
+---------------------------------------------------------------------*/
+footer#down {
+text-align:center;
+}
+.footerMenu
+{
+	padding-top:50px;
+}
+.footerMenu a:link,
+.footerMenu a:visited
+{
+    font-weight: normal;
+    color:blue;
+}
+.footerMenu ul , .footerMenu ul li
+{
+    display: inline;
+    padding-left:10px;
+}
+
+/* Custom Grids
+---------------------------------------------------------------------*/
+.kolom
+{
+    display: block;
+    float:left;
+}
+.widthcontent5
+{
+	width:728px;
+	padding-left:10px;
+}
+.sw1
+{
+	width: 723px;
+	padding-left:10px;
+}
+.cart-price{padding-right:10px;}
+.price{white-space:nowrap !important;}
+
+
+/* Custom Store
+---------------------------------------------------------------------*/
+.payment-methods dt{margin-left:20px;display:inline;}
+.payment-methods dd{padding:5px 20px;}
+.payment-methods select.month{width:146px !important;margin-right:10px;}
+.payment-methods select.year{width:100px !important;}
+.payment-methods input.cvv{width:3em !important;}
+
+.form-list li{margin-bottom:6px;list-style: none;}
+.form-list li .input-box .input-text, .form-list li .input-box textarea{width:250px;}
+.form-list li .input-box select{width:256px;}
+.form-list li.addElement{border-top:1px solid #DDD;padding-top:10px;}
+
+dl.payment-methods fieldset.form-list{float:left;}
+
+#bank_logo{width:469px;height:88px;display:table;vertical-align:middle;margin-bottom:10px;}
+.bank_logo_radio,.bank_logo_image,.bank_logo_text{height:88px;display:table-cell;vertical-align:middle;}
+.bank_logo_radio{padding-left:10px;}
+.bank_logo_image{padding-left:10px;}
+.bank_logo_text{font-size:12px;width:220px;padding-right:5px;}
+
+
+
+

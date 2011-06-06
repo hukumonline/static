@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* Custom Header 
+---------------------------------------------------------------------*/
+header#holup {
+	width:100%;
+}
+.headerMenu{
+    font-size: 13px;
+}
+.headerMenu ul , .headerMenu ul li
+{
+    display: inline;
+}
+
+/* Custom Grids
+---------------------------------------------------------------------*/
+.kolom
+{
+    display: block;
+    float:left;
+}
+.widthcontent1
+{
+    width: 250px;
+    padding-top:10px;
+}
+.widthcontent5
+{
+	width:728px;
+	padding-left:10px;
+}
+
+/* Custom Page title
+---------------------------------------------------------------------*/
+
+#page .subjudul
+{
+    font-style:normal;
+    font-size:12px;
+    color:red;
+    font-family:Georgia,"Times New Roman",Times,serif;
+    font-style: italic;
+    margin:1em 0;
+}
+
+.searchlink, .searchlink:visited, .searchlink:link  { font-size: 14px;color: #333333; text-decoration: none;}
+.searchlink:hover	{ background-color:#E2EFFF; border-bottom:1px solid #329ECC;}
+
+.td_peraturan1	{ vertical-align:top; background: #FFFFFF; padding: 0px 5px 0px 5px;}
+
+#navlistnoline	{ margin-left: 0; margin-top: 5px; margin-bottom:0;  padding-left: 0;}
+#navlistnoline li { list-style: none;padding-left: 10px; background-image: url(../images/arrow02.jpg); background-repeat: no-repeat; background-position: 0 .6em;  padding-top:2px; padding-bottom: 2px; }
+#navlistnoline a, #navlistnoline a:visited, #navlistnoline a:link  { color: #004276; text-decoration: none; font-family:tahoma, verdana, arial;font-weight:bold;}
+#navlistnoline a:hover	{ color:#B79C00; text-decoration: underline;}
+
