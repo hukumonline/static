@@ -19,3 +19,23 @@
     padding: 10px;
     background: url(../images/index.gif) no-repeat
 }
+
+.psearch input
+{
+	border:1px solid #5D9ADF;
+	color:#666;
+	line-height:18px;
+	margin:10px 0 0;
+	padding:4px 24px 4px 4px;
+	vertical-align:middle;
+	width:202px;
+	background:#fff url("../images/search.gif") no-repeat 99% 56%;
+	-moz-box-shadow:0 0;
+	-webkit-box-shadow:0 0;
+	box-shadow:0 0;
+
+}
+.psearch input:focus {
+	border:1px solid #266DBB;
+	-webkit-focus-ring-color: none;
+}
