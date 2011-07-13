@@ -83,6 +83,25 @@ header#up
 {
     font:bold 16px Georgia,"Times New Roman",Times,serif;
 }
+.beritaFotoJudul
+{
+    font-size:14px;
+    font-weight:bold;
+    color:#6600FF;
+}
+.beritaFotoJD
+{
+    font-size:16px;
+    font-weight:bold;
+    color:#006600;
+    margin-bottom:5px;
+}
+.beritaFotoLink
+{
+	font-size:14px;
+	font-weight:bold;
+	color:#FF9900;
+}
 #page .subjudul
 {
     font-style:normal;
