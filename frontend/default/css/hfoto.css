@@ -33,9 +33,9 @@
 	Set to display block
 */
 
-.slides_container a {
+.slides_container div {
 	width:606px;
-	height:424px;
+	height:464px;
 	display:block;
 }
 
@@ -68,25 +68,38 @@
 	Pagination
 */
 
-#products .pagination {
+#products .fl 
+{
 	display: inline;
 	background:#dfdfdf;
-	width:595px;
-	padding:5px 5px;
-	margin-left:2px;
+	width:605px;
 	float:left;
 	border-radius:5px;
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
+	padding:5px 5px;
 }
 
-#products .pagination li {
+.fo
+{
+	padding:5px 5px;
+	margin-left:5px;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#products .fl .pagination {
+	padding:5px 5px;
+	margin-left:2px;
+}
+
+#products .fl .pagination li {
 	float:left;
 	margin:2px 4px;
 	list-style:none;
 }
 
-#products .pagination li a {
+#products .fl .pagination li a {
 	display:block;
 	width:97px;
 	height:71px;
@@ -95,8 +108,25 @@
 	background:#f9f9f9;
 }
 
-#products .pagination li.current a {
+#products .fl .pagination li.current a {
 	border:1px solid #7f7f7f;
 	margin:0;
 }
 
+.caption {
+	z-index:101;
+	overflow:hidden;
+	display:block;
+	clear:both;
+	top:50px;
+	left:0;
+	height:5px;
+	padding:5px 20px 0 20px;
+	background:#000;
+	background:rgba(0,0,0,.5);
+	width:576px;
+	font-size:1.3em;
+	line-height:1.33;
+	color:#fff;
+	border-top:1px solid #000;
+}
