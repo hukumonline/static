@@ -1,0 +1,102 @@
+#products_example {
+	width:600px;
+	height:282px;
+	position:relative;
+}
+
+#products {
+	margin-left:76px;
+	padding-top:20px;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+#products .slides_container {
+	width:606px;
+	overflow:hidden;
+	float:left;
+	position:relative;
+	border:1px solid #dfdfdf;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container a {
+	width:606px;
+	height:424px;
+	display:block;
+}
+
+/*
+	Next/prev buttons
+*/
+
+#products .next,#products .prev {
+	position:absolute;
+	top:127px;
+	left:50px;
+	width:21px;
+	height:0;
+	padding-top:21px;
+	overflow:hidden;
+	display:block;
+	z-index:101;
+}
+
+#products .prev {
+	background:url(../images/arrow-prev.png);
+}
+
+#products .next {
+	left:690px;
+	background:url(../images/arrow-next.png);
+}
+
+/*
+	Pagination
+*/
+
+#products .pagination {
+	display: inline;
+	background:#dfdfdf;
+	width:595px;
+	padding:5px 5px;
+	margin-left:2px;
+	float:left;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+
+#products .pagination li {
+	float:left;
+	margin:2px 4px;
+	list-style:none;
+}
+
+#products .pagination li a {
+	display:block;
+	width:97px;
+	height:71px;
+	margin:1px;
+	float:left;
+	background:#f9f9f9;
+}
+
+#products .pagination li.current a {
+	border:1px solid #7f7f7f;
+	margin:0;
+}
+
