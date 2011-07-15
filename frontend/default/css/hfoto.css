@@ -1,7 +1,8 @@
 #products_example {
 	width:600px;
-	height:282px;
+	height:582px;
 	position:relative;
+	padding-bottom:10em;
 }
 
 #products {
