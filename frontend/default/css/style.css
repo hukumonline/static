@@ -164,7 +164,7 @@ footer#down {
 ---------------------------------------------------------------------*/
 #gallery {
     position:relative;
-    height:191px;
+    height:265px;
 }
 #gallery a {
     float:left;
@@ -186,7 +186,7 @@ footer#down {
     z-index:600;
     background-color:#000;
     color:#ffffff;
-    height:80px;
+    height:100px;
     width:100%;
     position:absolute;
     bottom:0;
@@ -728,8 +728,11 @@ dl.payment-methods fieldset.form-list{float:left;}
 
 .form-button{overflow:visible;width:auto;border:0;padding:4px 10px;background:#264264;color:#ffffff;font:11px Helvetica, arial, sans-serif !important;cursor:pointer;text-align:center;vertical-align:middle;border-left:1px solid #928fac;border-right:1px solid #928fac;background:white url(../images/bg_button.png) repeat;}
 
-.aktual, .aktual:visited, .aktual:link  { color: #333333; text-decoration: none;}
-.aktual:hover	{ background-color:#E2EFFF; border-bottom:1px solid #329ECC;}
+.aktual, .aktual:visited, .aktual:link  { color: #003366; text-decoration: none;}
+.aktual:hover	{ color:#000; border-bottom:1px solid #329ECC;}
+
+.akt, .akt:visited, .akt:link  { color: #000; text-decoration: none;}
+.akt:hover	{ color:#000; border-bottom:1px solid #329ECC;}
 
 .searchlink, .searchlink:visited, .searchlink:link  { font-size: 14px;color: #333333; text-decoration: none;}
 .searchlink:hover	{ background-color:#E2EFFF; border-bottom:1px solid #329ECC;}
@@ -927,7 +930,7 @@ table.hstyle caption {
 .kategoriisi a {padding:0; text-decoration:none;font-size:12px;}
 .kategoriisi a:hover {text-decoration:underline;color: #B79C00;}
 
-.hfoto{border: 1px solid #cecece;width:494px;height:120px;float:left;display:inline}
+.hfoto{width:494px;height:115px;float:left;display:inline}
 
 .cliniccontent{
 font-family:arial,helvetica,clean,sans-serif;
@@ -937,7 +940,7 @@ padding-bottom:10px;
 
 .top-bar {
 
-	z-index: 100;
+	z-index: 99999;
 
 	position: fixed;
 
@@ -978,7 +981,7 @@ padding-bottom:10px;
 
 .top-bar a:hover {
 
-	margin: 0px;
+	margin: -2px 0 0 0;
 
 	padding: 0 0 0 15px;
 

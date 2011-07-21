@@ -1,14 +1,12 @@
 .jcarousel-skin-tango .jcarousel-container {
-   /* background: #F0F6F9;*/
+   background: #F0F6F9;
 }
 
 .jcarousel-skin-tango .jcarousel-container-horizontal {
-   /* width: 500px;
-    padding: 10px 35px 0;
 	-moz-border-radius: 10px;
-    border: 1px solid #346F97;*/
-	padding:10px 35px 0;
-    width:380px;
+    border: 1px solid #346F97;
+	padding:15px 35px 0;
+    width:422px;
 }
 
 .jcarousel-skin-tango .jcarousel-container-vertical {
@@ -19,8 +17,8 @@
 
 .jcarousel-skin-tango .jcarousel-clip-horizontal {
     width:  450px;
-    height: 110px;
-	left:-7px;
+    height: 90px;
+	left:-2px;
 }
 
 .jcarousel-skin-tango{ 
@@ -39,7 +37,7 @@
 }
 
 .jcarousel-skin-tango .jcarousel-item-horizontal {
-    margin-right: 10px;
+    margin-right: 1px;
 }
 
 .jcarousel-skin-tango .jcarousel-item-vertical {
