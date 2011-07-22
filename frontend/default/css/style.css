@@ -938,7 +938,7 @@ table.hstyle caption {
 .kategoriisi a {padding:0; text-decoration:none;font-size:12px;}
 .kategoriisi a:hover {text-decoration:underline;color: #B79C00;}
 
-.hfoto{width:384px;height:115px;float:left;display:inline}
+.hfoto{width:184px;height:115px;float:left;display:inline}
 
 .cliniccontent{
 font-family:arial,helvetica,clean,sans-serif;
