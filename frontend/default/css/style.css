@@ -178,12 +178,12 @@ footer#down {
 
 #gallery a.show
 {
-    z-index:500;
+    z-index:100;
 }
 
 #gallery .caption
 {
-    z-index:500;
+    z-index:100;
     background-color:#000;
     color:#ffffff;
     height:100px;
