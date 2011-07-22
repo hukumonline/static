@@ -166,6 +166,7 @@ footer#down {
 	overflow:hidden;
     position:relative;
     height:269px;
+    width:100px;
 }
 #gallery a {
     float:left;
