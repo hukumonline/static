@@ -164,7 +164,7 @@ footer#down {
 ---------------------------------------------------------------------*/
 #gallery {
     position:relative;
-    height:265px;
+    height:269px;
 }
 #gallery a {
     float:left;
@@ -190,11 +190,12 @@ footer#down {
     width:100%;
     position:absolute;
     bottom:0;
+	padding-left:3px;
 }
 
 #gallery .caption .content
 {
-    margin:5px;
+    margin:15px;
 }
 
 #gallery .caption .content h3
@@ -207,23 +208,26 @@ footer#down {
 
 
 
+ul#topnav{
+margin: 0;
+padding: 10px 130px;
+list-style-type: none;
+}
 
-.headerMenu{
-    font-size: 13px;
-    color:white;
-    padding:7px 1px;
+ul#topnav li{
+display: inline;
+padding: 0 1px 0 8px;
 }
-.headerMenu a:link,
-.headerMenu a:visited
-{
-    font-weight: normal;
-    color:white;
-    padding-top:5px;
+
+ul#topnav li a:link, ul#topnav li a:visited{
+text-decoration: none;
+color: #fff;
 }
-.headerMenu ul , .headerMenu ul li
-{
-    display: inline;
+
+ul#topnav li a:hover, ul#topnav li a:active{
+text-decoration: underline;
 }
+
 
 #headerMenu_b{
     font-size: 12px;
@@ -959,6 +963,7 @@ padding-bottom:10px;
 	background: #282828 repeat-x left top;
 
 	top: 0;
+	left:0;
 
 }
 
