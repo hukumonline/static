@@ -209,9 +209,11 @@ footer#down {
 
 
 ul#topnav{
+width:460px;
 margin: 0;
-padding: 10px 130px;
+padding: 10px 30px;
 list-style-type: none;
+text-align:left;
 }
 
 ul#topnav li{
