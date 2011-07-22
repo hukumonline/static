@@ -6,7 +6,7 @@
 	-moz-border-radius: 10px;
     border: 1px solid #346F97;
 	padding:15px 35px 0;
-    width:402px;
+    width:380px;
 }
 
 .jcarousel-skin-tango .jcarousel-container-vertical {
@@ -16,7 +16,7 @@
 }
 
 .jcarousel-skin-tango .jcarousel-clip-horizontal {
-    width:  450px;
+    width:  400px;
     height: 90px;
 	left:-2px;
 }
