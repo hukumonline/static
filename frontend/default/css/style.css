@@ -163,6 +163,7 @@ footer#down {
 /* Custom Gallery
 ---------------------------------------------------------------------*/
 #gallery {
+	overflow:hidden;
     position:relative;
     height:269px;
 }
@@ -178,12 +179,12 @@ footer#down {
 
 #gallery a.show
 {
-    z-index:100;
+    z-index:500;
 }
 
 #gallery .caption
 {
-    z-index:100;
+    z-index:600;
     background-color:#000;
     color:#ffffff;
     height:100px;
