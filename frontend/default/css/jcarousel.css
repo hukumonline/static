@@ -6,17 +6,17 @@
 	-moz-border-radius: 10px;
     border: 1px solid #346F97;
 	padding:15px 35px 0;
-    width:380px;
+    width:320px;
 }
 
 .jcarousel-skin-tango .jcarousel-container-vertical {
-    width: 380px;
+    width: 320px;
     height: 255px;
     padding: 35px 20px;
 }
 
 .jcarousel-skin-tango .jcarousel-clip-horizontal {
-    width:  400px;
+    width:  320px;
     height: 90px;
 	left:-2px;
 }
