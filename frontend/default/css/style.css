@@ -163,10 +163,8 @@ footer#down {
 /* Custom Gallery
 ---------------------------------------------------------------------*/
 #gallery {
-	overflow:hidden;
     position:relative;
     height:269px;
-    width:100px;
 }
 #gallery a {
     float:left;
@@ -189,7 +187,7 @@ footer#down {
     background-color:#000;
     color:#ffffff;
     height:100px;
-    width:80%;
+    width:100%;
     position:absolute;
     bottom:0;
 	padding-left:3px;
@@ -938,7 +936,7 @@ table.hstyle caption {
 .kategoriisi a {padding:0; text-decoration:none;font-size:12px;}
 .kategoriisi a:hover {text-decoration:underline;color: #B79C00;}
 
-.hfoto{width:184px;height:115px;float:left;display:inline}
+.hfoto{width:494px;height:115px;float:left;display:inline}
 
 .cliniccontent{
 font-family:arial,helvetica,clean,sans-serif;
