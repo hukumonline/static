@@ -1,0 +1,91 @@
+body {
+	font-family:georgia,"times new roman",times,serif;
+	font-size:12px;
+}
+
+#top-bar {
+	z-index: 99999;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left:0;
+	height:35px;
+	width: 100%;
+	border-bottom: solid 1px #DDDDDD;
+	background: #282828 repeat-x left top;
+}
+
+#top-bar .top-search input
+{
+	border:1px solid #5D9ADF;
+	color:#666;
+	line-height:18px;
+	margin:5px 0 0;
+	padding:4px 24px 4px 4px;
+	vertical-align:middle;
+	width:202px;
+	background:#fff url("./images/search.gif") no-repeat 99% 56%;
+	font: 14px georgia,"times new roman",times,serif;
+	-moz-box-shadow:0 0;
+	-webkit-box-shadow:0 0;
+	box-shadow:0 0;
+
+}
+#top-bar .top-search input:focus {
+	border:1px solid #266DBB;
+	-webkit-focus-ring-color: none;
+}
+
+#top-bar .social_icon {
+	float: right;
+	font-weight: bold;
+	color: white;
+}
+#top-bar .social_icon span {
+	float: left;
+}
+#top-bar .social_icon a {
+		padding: 3px 0 0 5px;
+		float: left;
+		display: block;
+}
+#top-bar .mprofile a {
+	padding: 0 0 0 10px;
+	float: right;
+	color: #fff;
+	display: block;
+}
+
+
+
+
+
+
+/*
+_______________________________
+Mobile version - preset code from cssgrid.net */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	.examplecontainer {}
+
+	body {}
+	
+}
+
+
+/*
+_______________________________
+Provide higher res assets for iPhone 4 - preset code from cssgrid.net */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+	/* An example of how to override an image with one twice the size for iPhone 4. Specify the original pixel size with background-size.
+	.download {
+	background: url(../img/downarrow@2x.png) no-repeat;
+	background-size: 27px 28px;
+	}
+	*/
+
+}
