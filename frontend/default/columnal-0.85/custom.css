@@ -50,12 +50,15 @@ body {
 		float: left;
 		display: block;
 }
-#top-bar .mprofile a {
-	padding: 0 0 0 10px;
+#top-bar .mprofile {
+	padding: 2px;
 	float: right;
 	color: #fff;
 	display: block;
-	overflow:hidden;
+}
+#top-bar .mprofile a {
+	padding: 0 0 0 10px;
+	color: #fff;
 }
 
 
