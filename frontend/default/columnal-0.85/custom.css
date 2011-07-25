@@ -10,7 +10,7 @@ body {
 	padding: 0;
 	top: 0;
 	left:0;
-	height:36px;
+	height:35px;
 	width: 100%;
 	border-bottom: solid 1px #DDDDDD;
 	background: #282828 repeat-x left top;
@@ -21,7 +21,7 @@ body {
 	border:1px solid #5D9ADF;
 	color:#666;
 	line-height:18px;
-	margin:5px 0 0;
+	margin:4px 0 0;
 	padding:4px 24px 4px 4px;
 	vertical-align:middle;
 	width:202px;
@@ -51,10 +51,11 @@ body {
 		display: block;
 }
 #top-bar .mprofile a {
-	padding: 0 5px 0 10px;
+	padding: 0 0 0 10px;
 	float: right;
 	color: #fff;
 	display: block;
+	overflow:hidden;
 }
 
 
