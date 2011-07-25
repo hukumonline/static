@@ -51,7 +51,7 @@ body {
 		display: block;
 }
 #top-bar .mprofile {
-	padding: 2px;
+	padding: 2px 10px;
 	float: right;
 	color: #fff;
 	display: block;
