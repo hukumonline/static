@@ -1,6 +1,8 @@
 .jcarousel-skin-tango .jcarousel-container {
    background: #F0F6F9;
    left:5px;
+   z-index:1;
+   overflow:hidden;
 }
 
 .jcarousel-skin-tango .jcarousel-container-horizontal {
