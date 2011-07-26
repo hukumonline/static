@@ -23,7 +23,7 @@
 
 .jcarousel-skin-tango{ 
     padding-top:10px;
-	padding-right:10px; 
+	padding-right:15px; 
 }
 
 .jcarousel-skin-tango .jcarousel-clip-vertical {
@@ -63,7 +63,7 @@
     height: 103px;
     cursor: pointer;
     background: transparent url('../images/btn_right.gif') no-repeat 0 0;
-	left:450px;
+	left:445px;
     top:5px;
 }
 
