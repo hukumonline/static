@@ -1120,7 +1120,8 @@ padding-bottom:10px;
 	height: 23px;
 }#topcontent .search_hol .btun{
 	width: 24px;
-	height: 15px;
+	top:0;
+	vertical-align:middle;
 	background: url("./images/search.gif") no-repeat 99% 56%;
 	float: right;
 	border: 0;
