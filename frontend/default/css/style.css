@@ -49,6 +49,18 @@ header#up
     width: 733px;
 }
 
+.widthcontent_custom_1
+{
+	width: 220px;
+	padding-right:10px;
+	padding-top:15px;
+}
+
+.padding_top_5 	{padding-top:5px !important;}
+.padding_top_10	{padding-top:10px !important;}
+.padding_top_15 {padding-top:15px !important;}
+
+
 
 .pembatas1
 {
