@@ -1,4 +1,19 @@
 @charset "UTF-8";
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0;
+	padding:0;
+}
+h1 { font-size:26px; line-height:28px; font-weight:normal;}
+h2 { font-size:22px; line-height:24px; font-weight:normal;}
+h3 { font-size:20px; line-height:22px; font-weight:normal;}
+h4 { font-size:16px; font-weight:normal;}
+h5 { font-size:14px; font-weight:normal;}
+h6 { font-size:13px; font-weight:normal;}
+h7 { font-size:12px; font-weight:normal; line-height: 12px;}
+h8 { font-size:11px; font-weight:normal; line-height: 10px;}
+
+
 /*S:TOP BAR*/
 header#up
 {
@@ -165,7 +180,7 @@ ul#topnav li a:hover, ul#topnav li a:active {text-decoration: underline;}
 .widthcontent4 {width: 485px;}
 .widthcontent5 {width: 733px;}
 
-.widthcontent_custom_1 {width: 220px;padding-right:10px;padding-top:15px;}
+.widthcontent_custom_1 {width: 220px;padding-right:10px;padding-top:13px;}
 .widthcontent_custom_2 {width: 240px;padding-right:10px;}
 .widthcontent_custom_3 {width: 235px;}
 
@@ -179,10 +194,43 @@ ul#topnav li a:hover, ul#topnav li a:active {text-decoration: underline;}
 
 .pembatas1 {height: 85px;}
 
+
+
+/* News
+---------------------------------------------------------------------*/
+.hol_berita_1 {
+	padding:0;
+	margin:0;
+	list-style:none;
+	border-top:1px solid #87CEFA;
+}
+.hol_berita_1 li {
+	padding:5px 0px;
+	font:normal 12px georgia,"times new roman",times,serif;
+	line-height:15px;
+}
+.hol_berita_1 li .author, .date {
+	font-size: 11px;
+	color: gray;
+}
+.hol_berita_1 li img {
+	float:left;
+	padding:2px;
+	margin: 3px 5px 5px 0px;
+}
+.hol_berita_1 li h5 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	color:#96ff00;
+}
+
 /* Custom Links
 ---------------------------------------------------------------------*/
 .bb, .bb:visited, .bb:link {color: #B22222;font-size: 9px;line-height: 1.5em;padding-top:10px;}
 .bb:hover {border-bottom:1px solid #329ECC;}
+.l_blue_hol, .l_blue_hol a { color: #003366; text-decoration:none;}
+.l_blue_hol a:hover { color: #000; border-bottom:1px solid #329ECC;}
+
 
 
 /* Custom Page title
