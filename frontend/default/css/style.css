@@ -215,8 +215,7 @@ ul#topnav li a:hover, ul#topnav li a:active {text-decoration: underline;}
 }
 .hol_berita_1 li img {
 	float:left;
-	padding:2px;
-	margin: 0 5px 5px 0px;
+	margin-right:10px;
 }
 .hol_berita_1 li h5 {
 	font:bold 12px Georgia, "Times New Roman", Times, serif;
