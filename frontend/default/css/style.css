@@ -191,6 +191,7 @@ ul#topnav li a:hover, ul#topnav li a:active {text-decoration: underline;}
 .padding_right_22 {padding-right:22px !important;}
 
 .bl_grey {border-left: 1px solid #cecece;}
+.bt_blue {border-top:1px solid #87CEFA;}
 
 .pembatas1 {height: 85px;}
 
@@ -202,7 +203,6 @@ ul#topnav li a:hover, ul#topnav li a:active {text-decoration: underline;}
 	padding:0;
 	margin:0;
 	list-style:none;
-	border-top:1px solid #87CEFA;
 }
 .hol_berita_1 li {
 	padding:5px 0px;
