@@ -191,7 +191,7 @@ ul#topnav li a:hover, ul#topnav li a:active {text-decoration: underline;}
 .padding_right_22 {padding-right:22px !important;}
 
 .bl_grey {border-left: 1px solid #cecece;}
-.bt_blue {border-top:1px solid #87CEFA;}
+.bt_blue {border-top:1px solid #87CEFA; !important;}
 
 .pembatas1 {height: 85px;}
 
