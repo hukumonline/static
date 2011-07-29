@@ -207,7 +207,7 @@ ul#topnav li a:hover, ul#topnav li a:active {text-decoration: underline;}
 .hol_berita_1 li {
 	padding:5px 0px;
 	font:normal 12px georgia,"times new roman",times,serif;
-	line-height:15px;
+	line-height:17px;
 }
 .hol_berita_1 li .author, .date {
 	font-size: 11px;
@@ -220,6 +220,7 @@ ul#topnav li a:hover, ul#topnav li a:active {text-decoration: underline;}
 }
 .hol_berita_1 li h5 {
 	font:bold 12px Georgia, "Times New Roman", Times, serif;
+	line-height:15px;
 	color:#96ff00;
 }
 
