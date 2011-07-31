@@ -183,6 +183,8 @@ ul#topnav li a:hover, ul#topnav li a:active {text-decoration: underline;}
 .widthcontent_custom_1 {width: 220px;padding-right:10px;}
 .widthcontent_custom_2 {width: 240px;padding-right:10px;}
 .widthcontent_custom_3 {width: 235px;}
+.widthcontent_custom_4 {width: 230px;}
+.widthcontent_custom_5 {width: 240px;text-align: left;}
 
 .padding_top_5 	{padding-top:5px !important;}
 .padding_top_10	{padding-top:10px !important;}
@@ -190,10 +192,40 @@ ul#topnav li a:hover, ul#topnav li a:active {text-decoration: underline;}
 
 .padding_right_22 {padding-right:22px !important;}
 
+.padding_left_10 {padding-left:10px !important;}
+
 .bl_grey {border-left:1px solid #cecece !important;}
 .bt_blue {border-top:1px solid #87CEFA !important;}
 
 .pembatas1 {height: 85px;}
+
+
+
+/* Tables
+---------------------------------------------------------------------*/
+table.style_1 td {
+	border-bottom:0 none;
+}
+td.hb_1 {
+	padding:3px 0;
+}
+td.hb_1 .author {
+	font-size: 11px;
+	color: gray;
+}
+td.hb_1 h5 {
+	font:bold 12px Georgia, "Times New Roman", Times, serif;
+	color:#96ff00;
+	padding-bottom:3px;
+}
+td.hb_1 img.img1 {
+	float: left;
+	width: 60px;
+	height: 60px;
+	border: 1px solid #dbdbdb;
+	padding:3px;
+	margin-right: 10px;
+}
 
 
 
@@ -205,9 +237,10 @@ ul#topnav li a:hover, ul#topnav li a:active {text-decoration: underline;}
 	list-style:none;
 }
 .hol_berita_1 li {
-	padding:5px 0px;
+	padding:3px 0px;
 	font:normal 12px georgia,"times new roman",times,serif;
 	line-height:17px;
+	overflow:hidden;
 }
 .hol_berita_1 li .author, .date {
 	font-size: 11px;
@@ -216,26 +249,47 @@ ul#topnav li a:hover, ul#topnav li a:active {text-decoration: underline;}
 .hol_berita_1 li img.img1 {
 	float: left;
 	width: 60px;
-	background: white;
 	height: 60px;
-	padding: 3px;
 	border: 1px solid #dbdbdb;
+	padding:3px;
 	margin-right: 10px;
-}
-.hol_berita_1 li img.img2 {
-	float: left;
-	width: 60px;
-	background: white;
-	height: 60px;
-	padding: 3px;
-	border: 1px solid #dbdbdb;
-	margin-right: 10px;
-	margin-top:2px;
 }
 .hol_berita_1 li h5 {
 	font:bold 12px Georgia, "Times New Roman", Times, serif;
 	color:#96ff00;
+	padding: 0px 0 3px 0;
 }
+
+.hol_berita_2 {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.hol_berita_2 li {
+	padding: 3px 0;
+	overflow:hidden;
+}
+.hol_berita_2 li h5 {
+	font:bold 12px Georgia, "Times New Roman", Times, serif;
+	padding: 0px 0 3px 0;
+}
+.hol_berita_2 li h6 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: green;
+	padding: 3px 0 0px 0;
+	display: block;
+	font-size: 12px;
+}
+.hol_berita_2 li img {
+	float: left;
+	width: 60px;
+	height: 60px;
+	border: 1px solid #dbdbdb;
+	padding: 2px;	
+	margin: 3px 5px 1px 0;	
+}
+
 
 /* Custom Links
 ---------------------------------------------------------------------*/
