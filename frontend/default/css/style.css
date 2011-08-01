@@ -293,6 +293,15 @@ td.hb_1 img.img1 {
 }
 
 
+/* Social Share
+---------------------------------------------------------------------*/
+.t_utility_socialshare h2 { font-family: Tahoma, Arial, sans-serif; font-size: 13px; font-weight: bold; height: 30px; line-height: 30px; border-top: 2px solid #a3a3a3; border-bottom: 1px solid #e5e5e5; margin-bottom: 10px; }
+.t_utility_socialshare li.share { list-style:none;float: left; margin-right: 10px;  }
+
+
+
+
+
 /* Custom Links
 ---------------------------------------------------------------------*/
 .bb, .bb:visited, .bb:link {color: #B22222;font-size: 9px;line-height: 1.5em;padding-top:10px;}
