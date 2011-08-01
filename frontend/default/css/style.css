@@ -295,11 +295,27 @@ td.hb_1 img.img1 {
 
 /* Social Share
 ---------------------------------------------------------------------*/
-.t_utility_socialshare h2 { font-family: Tahoma, Arial, sans-serif; font-size: 13px; font-weight: bold; height: 30px; line-height: 30px; border-top: 2px solid #a3a3a3; border-bottom: 1px solid #e5e5e5; margin-bottom: 10px; }
-.t_utility_socialshare li.share { list-style:none;float: left; margin-right: 10px;  }
+.socialshare h2 { font-family: Tahoma, Arial, sans-serif; font-size: 13px; font-weight: bold; height: 30px; line-height: 30px; border-top: 2px solid #a3a3a3; border-bottom: 1px solid #e5e5e5; margin-bottom: 10px; }
+.socialshare li.share { list-style:none;float: left; margin-right: 10px;  }
 
-
-
+#isiberita {
+	min-height: 930px;
+	height: auto !important;
+	height: 960px;
+	background-color: #fbf3cb;
+	text-align: left;
+	padding: 18px 20px 20px 25px;
+	margin: 0 0 10px 0;
+	border: 1px solid #b2b2dd;
+	clear: both;
+}
+#isiberita .busear {float:right;font-family: arial,helvetica,sans-serif;font-size: 0.625em;display:-moz-inline-block;display:-moz-inline-box;display:inline-block;vertical-align:middle;line-height:10px;padding-top:5px}
+#isiberita .sketsa {
+	padding: 3px;
+	margin: 45px 8px 0 0;
+	border: 1px solid #ddc688;
+	float: left;
+}
 
 
 /* Custom Links
@@ -328,6 +344,11 @@ td.hb_1 img.img1 {
 #judul2
 {
     font:bold 16px Georgia,"Times New Roman",Times,serif;
+}
+#judul3 {
+    color:#009;
+    font:bold 26px Georgia, "Times New Roman", Times, serif;
+    line-height: 120%;
 }
 .beritaFotoJudul
 {
@@ -368,6 +389,31 @@ td.hb_1 img.img1 {
     font-family:Georgia,"Times New Roman",Times,serif;
     margin:1em 0;
 }
+
+
+/* Rating
+---------------------------------------------------------------------*/
+
+.votitaly-inline-rating {float:left;font-family: arial,helvetica,sans-serif;font-size: 10px;display:-moz-inline-block;display:-moz-inline-box;display:inline-block;vertical-align:middle;line-height:20px;}
+.votitaly-box {margin-left:5px;vertical-align:middle;display:inline}
+.votitaly-box img.loading{vertical-align:middle}
+.votitaly-star-rating,
+.votitaly-star-rating a:hover,
+.votitaly-star-rating a:active,
+.votitaly-star-rating .current-rating {background: url(../images/star.gif) left -1000px repeat-x;}
+.votitaly-star-rating {position:relative;width:125px;height:25px;overflow:hidden;list-style:none;margin:0;padding:0;background-position: left top;}
+.votitaly-star-rating li {display: inline;}
+.votitaly-star-rating a,
+.votitaly-star-rating .current-rating {position:absolute;top:0;left:0;text-indent:-1000em;height:25px;line-height:25px;outline:none;overflow:hidden;border: none;}
+.votitaly-star-rating a:hover,
+.votitaly-star-rating a:active {background-position: left bottom;}
+.votitaly-star-rating a.one-star {width:20%;z-index:6;}
+.votitaly-star-rating a.two-stars {width:40%;z-index:5;}
+.votitaly-star-rating a.three-stars {width:60%;z-index:4;}
+.votitaly-star-rating a.four-stars {width:80%;z-index:3;}
+.votitaly-star-rating a.five-stars {width:100%;z-index:2;}
+.votitaly-star-rating .current-rating {z-index:1;background-position: left center;}
+
 
 
 /* Custom Footers
@@ -500,71 +546,8 @@ footer .phone strong {padding-top: 2px;color: #FFF;font-size: 24px;margin: 0;}
 	border-bottom:1px solid #329ECC;
 }
 
-.votitaly-inline-rating {float:left;font-family: arial,helvetica,sans-serif;font-size: 10px;display:-moz-inline-block;display:-moz-inline-box;display:inline-block;vertical-align:middle;line-height:20px;}
-.votitaly-box {margin-left:5px;vertical-align:middle;display:inline}
-.votitaly-box img.loading{vertical-align:middle}
 
-.votitaly-star-rating,
-.votitaly-star-rating a:hover,
-.votitaly-star-rating a:active,
-.votitaly-star-rating .current-rating{
-background: url(../images/star.gif) left -1000px repeat-x;
-}
-.votitaly-star-rating{
-position:relative;
-width:125px;
-height:25px;
-overflow:hidden;
-list-style:none;
-margin:0;
-padding:0;
-background-position: left top;
-}
-.votitaly-star-rating li{
-display: inline;
-}
-.votitaly-star-rating a,
-.votitaly-star-rating .current-rating{
-position:absolute;
-top:0;
-left:0;
-text-indent:-1000em;
-height:25px;
-line-height:25px;
-outline:none;
-overflow:hidden;
-border: none;
-}
-.votitaly-star-rating a:hover,
-.votitaly-star-rating a:active{
-background-position: left bottom;
-}
-.votitaly-star-rating a.one-star{
-width:20%;
-z-index:6;
-}
-.votitaly-star-rating a.two-stars{
-width:40%;
-z-index:5;
-}
-.votitaly-star-rating a.three-stars{
-width:60%;
-z-index:4;
-}
-.votitaly-star-rating a.four-stars{
-width:80%;
-z-index:3;
-}
-.votitaly-star-rating a.five-stars{
-width:100%;
-z-index:2;
-}
-.votitaly-star-rating .current-rating{
-z-index:1;
-background-position: left center;
-}
 
-.busear {float:right;font-family: arial,helvetica,sans-serif;font-size: 0.625em;display:-moz-inline-block;display:-moz-inline-box;display:inline-block;vertical-align:middle;line-height:10px;padding-top:5px}
 
 .clean
 {
