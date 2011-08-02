@@ -469,7 +469,13 @@ footer strong {display: block;font-size: 17px;color: #666;margin: 0 0 10px;}
 footer .col_1 {width: 100px;padding-left:20px;padding-right: 30px;font-size:15px;}
 footer .phone {color: #666;font-size: 12px;padding-bottom:10px;}
 footer .phone strong {padding-top: 2px;color: #FFF;font-size: 24px;margin: 0;}
-
+footer .icon {
+background: url("../images/holnetwork.gif") no-repeat left center;
+width:300px;
+height:117px;
+float: right;
+display:block;
+}
 
 
 /* Custom Gallery
