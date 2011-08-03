@@ -440,6 +440,7 @@ td.hb_1 img.img1 {
 
 footer#down {
 	background-color: #282828;
+	width:100%;
 	background:-webkit-gradient(
 		linear,
 		left bottom,
@@ -460,9 +461,9 @@ footer#down {
 .footerMenu ul , .footerMenu ul li {display: inline;}
 
 footer a {color: #FFF !important;}
-footer li {float: left;width: 100%;}
-footer li strong {float: left;clear: both;width: 100%;}
-footer li a { float: left;clear: both;width: 100%;}
+footer dd {float: left;width: 100%;}
+footer dd strong {float: left;clear: both;width: 100%;}
+footer dd a { float: left;clear: both;width: 100%;}
 footer a:hover {text-decoration: underline;}
 footer strong {display: block;font-size: 17px;color: #666;margin: 0 0 10px;}
 footer .col_1 {width: 100px;padding-left:20px;padding-right: 30px;font-size:15px;}
