@@ -299,9 +299,7 @@ td.hb_1 img.img1 {
 .socialshare li.share { list-style:none;float: left; margin-right: 10px;  }
 
 #isiberita {
-	min-height: 930px;
 	height: auto !important;
-	height: 960px;
 	background-color: #fbf3cb;
 	text-align: left;
 	padding: 18px 20px 20px 25px;
@@ -337,6 +335,17 @@ td.hb_1 img.img1 {
 	font-family:Georgia,"Times New Roman",Times,serif;
 	margin:1em 0;
 }
+#isiberita .comment{
+	font-family:Monaco,"Panic Sans","Lucida Console","Courier New",Courier,monospace,sans-serif;
+	padding-left: 32px;
+	background:url("../images/comment.jpg") no-repeat 8px 50%;
+}
+#isiberita .baca{
+	font-family:Monaco,"Panic Sans","Lucida Console","Courier New",Courier,monospace,sans-serif;
+	padding-left: 32px;
+	background:url("../images/page.png") no-repeat 8px 50%;
+}
+
 
 
 /* Custom Links
