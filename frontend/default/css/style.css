@@ -356,17 +356,31 @@ td.hb_1 img.img1 {
 
 /* Custom Links
 ---------------------------------------------------------------------*/
-#navlistnoline	{ margin-left: 0; margin-top: 5px; margin-bottom:0;  padding-left: 0;}
+#navlistnoline { margin-left: 0; margin-top: 5px; margin-bottom:0; padding-left: 0;}
 #navlistnoline li { list-style: none;padding-left: 10px; background-image: url(../images/arrow02.jpg); background-repeat: no-repeat; background-position: 0 .6em;  padding-top:2px; padding-bottom: 2px; }
 #navlistnoline a, #navlistnoline a:visited, #navlistnoline a:link  { color: #004276; text-decoration: none; font-family:Georgia, "Times New Roman", Times, serif;font-weight:bold;}
 #navlistnoline a:hover	{ color:#B79C00; text-decoration: underline;}
-#news 	{ margin-right: 0; margin-bottom:0; padding-right: 0; list-style: none; }
+#news { margin-right: 0; margin-bottom:0; padding-right: 0; list-style: none; }
 #news li { padding-right: 15px;list-style: none; }
 #news a, #news a:visited, #news a:link { text-decoration: none; font-family:Georgia, "Times New Roman", Times, serif;font-weight:bold;}
+#kcss a {
+    font-family:tahoma, verdana, arial;
+    font-size:14px;
+	color: #005790;
+	text-decoration:none;
+	font-weight:bold;
+}
+#kcss a:hover, #kcss a:focus, #kcss a:active {
+	background-color:#FFD700;
+	border-bottom:1px solid #329ECC;
+}
 .bb, .bb:visited, .bb:link {color: #B22222;font-size: 9px;line-height: 1.5em;padding-top:10px;}
 .bb:hover {border-bottom:1px solid #329ECC;}
 .l_blue_hol, .l_blue_hol a { color: #003366; text-decoration:none;}
 .l_blue_hol a:hover { color: #000; border-bottom:1px solid #329ECC;}
+.td_peraturan2 { vertical-align:top; background: #F1F5FA; border:1px solid #ddd; padding: 7px 5px 0px 5px;}
+.td_peraturan1 { vertical-align:top; background: #FFFFFF; padding: 0px 5px 0px 5px;}
+
 
 
 
@@ -786,9 +800,6 @@ footer .icon {
 .fsizer a.fsactive { color: #000; background: #ebebeb; cursor: default; } /* When mode is active */
 
 
-.td_peraturan2	{ vertical-align:top; background: #F1F5FA; border:1px solid #ddd; padding: 7px 5px 0px 5px;}
-.td_peraturan1	{ vertical-align:top; background: #FFFFFF; padding: 0px 5px 0px 5px;}
-
 
 .cart-price{padding-right:10px;}
 .price{white-space:nowrap !important;}
@@ -855,18 +866,6 @@ table.hstyle caption {
 	text-decoration: underline;
 }
 
-
-#kcss a {
-        font-family:tahoma, verdana, arial;
-        font-size:14px;
-	color: #005790;
-	text-decoration:none;
-	font-weight:bold;
-}
-#kcss a:hover, #kcss a:focus, #kcss a:active {
-	background-color:#FFD700;
-	border-bottom:1px solid #329ECC;
-}
 
 .klinikterbaruisi{
     padding:5px;
