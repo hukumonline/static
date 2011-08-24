@@ -686,8 +686,12 @@ td.hb_1 img.img1 {
 .breadcrumbs a { color:#999;}
 
 
-
-
+/* Clinic
+---------------------------------------------------------------------*/
+.kp { width:74px;margin-right:12px;float:left;text-align:center;display:inline; }
+.kp .kpa img { padding:5px; }
+.kp .kpp { border:1px solid #ccc;background:#fff;padding:3px;overflow:hidden;zoom:1; }
+.kp .user { width:74px;display:block;text-align:center;overflow:hidden;zoom:1; }
 
 
 
