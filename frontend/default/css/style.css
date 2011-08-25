@@ -374,6 +374,10 @@ td.hb_1 img.img1 {
 	background-color:#FFD700;
 	border-bottom:1px solid #329ECC;
 }
+#loading {
+    padding: 10px;
+    background: url(../images/index.gif) no-repeat;
+}
 .bb, .bb:visited, .bb:link {color: #B22222;font-size: 9px;line-height: 1.5em;padding-top:10px;}
 .bb:hover {border-bottom:1px solid #329ECC;}
 .l_blue_hol, .l_blue_hol a { color: #003366; text-decoration:none;}
