@@ -17,63 +17,104 @@ img, object, embed {}
 img {}
 a img {display:inline;}
 
-#top-bar {
+#topholid { 
+	font-family: Arial, Verdana, sans-serif;
+	width: 100%; 
+	background: #eee; 
+	margin-bottom:0px; 
+	padding:0 ; 
+	margin: 0;
+	border-bottom: 3px solid #cd0000;
+	background: 0px -1350px black repeat-x;
+	position:fixed;
+	top:0px;
+	left:0px;
 	z-index: 99999;
-	position: fixed;
+	_position:absolute;
+	_top:expression(eval(document.body.scrollTop));
+	-moz-box-shadow: 0px 0px 10px #4f4f4f;
+	-webkit-box-shadow: 0px 0px 10px #4f4f4f;
+	box-shadow: 0px 0px 5px #4f4f4f;
+	}
+#topcontent { 
+	width: 980px; margin:0;
+	color: white;
+	text-align: left;
+}
+#topcontent .topbar_menu {
+	float: left;
 	margin: 0;
 	padding: 0;
-	top: 0;
-	left:0;
-	height:35px;
-	width: 100%;
-	border-bottom: solid 1px #DDDDDD;
-	background: #282828 repeat-x left top;
+	list-style: none;
+	width:250px;
 }
-
-#top-bar .top-search input
-{
-	border:1px solid #5D9ADF;
-	color:#666;
-	line-height:18px;
-	margin:4px 0 0;
-	padding:4px 24px 4px 4px;
-	vertical-align:middle;
-	width:202px;
-	background:#fff url("./images/search.gif") no-repeat 99% 56%;
-	font: 14px georgia,"times new roman",times,serif;
-	-moz-box-shadow:0 0;
-	-webkit-box-shadow:0 0;
-	box-shadow:0 0;
-
-}
-#top-bar .top-search input:focus {
-	border:1px solid #266DBB;
-	-webkit-focus-ring-color: none;
-}
-
-#top-bar .social_icon {
-	float: right;
-	font-weight: bold;
-	color: white;
-}
-#top-bar .social_icon span {
+#topcontent .topbar_menu li {
 	float: left;
 }
-#top-bar .social_icon a {
-		padding: 3px 0 0 5px;
-		float: left;
-		display: block;
+#topcontent .topbar_menu li.auth {
+	padding: 4px 14px;
 }
-#top-bar .mprofile {
-	padding: 2px 10px;
-	float: right;
-	color: #fff;
+#topcontent .topbar_menu li a {
+	float: left;
 	display: block;
+	padding: 4px 14px;
+	color: white;
+	font-weight:bold;
+	text-decoration: none;
 }
-#top-bar .mprofile a {
-	padding: 0 0 0 10px;
-	color: #fff;
+#topcontent .topbar_menu li a:hover {
+	text-decoration: underline;
 }
+#topcontent .search_hol {
+	float: left;
+	padding-left: 70px;
+	padding-top: 5px;
+}
+.search-holsearch .input {
+	margin:1px 0 0;
+	padding:2px 1px 1px;
+	vertical-align:middle;
+	line-height: 14px;
+	font-size: 14px;
+	margin-left: 10px;
+	border:0px;
+	width: 250px;
+	color: #666;
+	clear: none;
+	float: left;
+}
+#topcontent .search_hol form {
+	border-radius: 5px;
+	border: 1px solid white;
+	background: white;
+	width: 300px;
+	height: 23px;
+}#topcontent .search_hol .btun{
+	width: 24px;
+	height: 22px;
+	background: url("./images/search.gif") no-repeat 99% 56%;
+	float: right;
+	border: 0;
+	cursor: pointer;
+}
+#topcontent .search_hol .btun:hover {
+	opacity: 0.50;
+}
+#topcontent .social_icon {
+	float: right;
+	padding: 7px 0 0 0;
+	font-weight: bold;
+	color: white;
+	font-size: 11px;
+	height:15px;
+}
+#topcontent .social_icon span {
+	float: left;
+	padding-right: 10px;
+	padding-top: 2px;
+	
+}
+
 
 
 .dot {
