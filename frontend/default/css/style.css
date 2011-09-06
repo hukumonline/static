@@ -166,6 +166,54 @@ ul#topnav li a:hover, ul#topnav li a:active {text-decoration: underline;}
 #headerMenu_b {display: inline-block;}
 
 
+.nav {
+	text-align:center;
+}
+.main_nav {
+	border-top:2px solid #720072;
+	border-bottom:3px solid #6b006b;
+	background: url(http://detik.net.id/detik/image/sprite_1.gif) 0px -140px repeat-x #950095;
+	text-align:center;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	height:30px;
+}
+.main_nav li {
+	float:left;
+	border-right:1px solid #ab32ab;
+	border-left:1px solid #720072;
+}
+.main_nav li.first {
+	border-right:1px solid #ab32ab;
+	border-left:0px solid #720072;
+}
+.main_nav li.last {
+	border-right:0px solid #ab32ab;
+	border-left:1px solid #720072;
+}
+.main_nav li a {
+	padding: 7px 11px 7px 11px;
+	font:bold 13px tahoma, arial, helvetica;
+	color:white;
+	text-decoration:none;
+	display:block;
+	text-shadow: #660000 2px 2px 3px;
+}
+.main_nav li a:hover {
+	background: url(http://detik.net.id/detik/image/sprite_1.gif) 0px -190px repeat-x #f90000;
+}
+.main_nav li a.selected {
+	background: url(http://detik.net.id/detik/image/sprite_1.gif) 0px -1400px repeat-x #6b006b;
+	color:#FF0;
+}
+.main_nav li a.selected:hover {
+	background: url(http://detik.net.id/detik/image/sprite_1.gif) 0px -1400px repeat-x #6b006b;
+	color:#FF0;
+}
+
+
+
 /*E:TOP BAR*/
 
 
