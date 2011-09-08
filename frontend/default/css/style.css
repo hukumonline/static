@@ -123,94 +123,43 @@ header#up
 	
 }
 
-.topup {background:#191860;height: 40px;width: 503px;}
-.topdown {background:#ffcc00;height: 40px;width: 503px;}
+.topup {height: 40px;width: 410px;}
+.topdown {height: 40px;width: 410px;}
 
-ul#topnav {width:460px;margin: 0;padding: 10px 30px;list-style-type: none;text-align:left;}
-ul#topnav li {display: inline;padding: 0 1px 0 8px;}
-ul#topnav li a:link, ul#topnav li a:visited {text-decoration: none;color: #fff;}
+ul#topnav {width:383px;margin: 0;padding: 10px 2px 23px 15.5em;list-style-type: none;text-align:left;}
+ul#topnav li {display: inline;padding:0 1px 0 10px;}
+ul#topnav li a:link, ul#topnav li a:visited {text-decoration: none;color: #000;}
 ul#topnav li a:hover, ul#topnav li a:active {text-decoration: underline;}
 
-#headerMenu_b {font-size: 12px;color:black;margin: 0;padding: 0px -.2em 0;width: 410px;}
+ul#topnavi {width:410px;margin: 0;padding: 10px 2px 23px 15.5em;list-style-type: none;text-align:right;}
+ul#topnavi li {display: inline;padding: 0 1px 0 10px;text-shadow: 0 1px 1px rgba(0,0,0, .3);font-weight: bold;}
+ul#topnavi li a:link, ul#topnav li a:visited {text-decoration: none;color: #000;}
+ul#topnavi li a:hover, ul#topnav li a:active {text-decoration: underline;}
+
+#headerMenu_b {font-size: 12px;color:black;margin: 0;padding: 0px 1em 0 16em;width: 410px;}
 #headerMenu_b li {float: left;position: relative;list-style: none;}
-
 /* main level link */
-#headerMenu_b a {font-weight: bold;color: #000;text-decoration: none;display: block;padding:  10px 8px;margin: 0;text-shadow: 0 1px 1px rgba(0,0,0, .3);}
+#headerMenu_b a {font-weight: bold;color: #000;text-decoration: none;display: block;padding:  1px 8px;margin: 0;text-shadow: 0 1px 1px rgba(0,0,0, .3);}
 #headerMenu_b a:hover {background: #000;color: #fff;}
-
 /* main level link hover */
 #headerMenu_b .current a, #headerMenu_b li:hover > a {background: #666 url(../images/gradient.png) repeat-x 0 -40px;color: #444;border-top: solid 1px #f8f8f8;text-shadow: 0 1px 0 rgba(255,255,255, 1);}
-
 /* sub levels link hover */
 #headerMenu_b ul li:hover a, #headerMenu_b li:hover li a {background: none;border: none;color: #666;-webkit-box-shadow: none;-moz-box-shadow: none;}
 #headerMenu_b ul a:hover {background: #0078ff url(../images/gradient.png) repeat-x 0 -100px !important;color: #fff !important;-webkit-border-radius: 0;-moz-border-radius: 0;text-shadow: 0 1px 1px rgba(0,0,0, .1);}
-
 /* dropdown */
 #headerMenu_b li:hover > ul {display: block;}
-
 /* level 2 list */
 #headerMenu_b ul {display: none;margin: 0;padding: 0;width: 185px;position: absolute;top: 35px;left: 0;background: #ddd url(../images/gradient.png) repeat-x 0 0;border: solid 1px #b4b4b4;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .3);-moz-box-shadow: 0 1px 3px rgba(0,0,0, .3);box-shadow: 0 1px 3px rgba(0,0,0, .3);}
 #headerMenu_b ul li {float: none;margin: 0;padding: 0;}
-
 #headerMenu_b ul a {font-weight: normal;text-shadow: 0 1px 0 #fff;}
-
 /* level 3+ list */
 #headerMenu_b ul ul {left: 181px;top: -3px;}
-
 /* rounded corners of first and last link */
 #headerMenu_b ul li:first-child > a {-webkit-border-top-left-radius: 9px;-moz-border-radius-topleft: 9px;-webkit-border-top-right-radius: 9px;-moz-border-radius-topright: 9px;}
 #headerMenu_b ul li:last-child > a {-webkit-border-bottom-left-radius: 9px;-moz-border-radius-bottomleft: 9px;-webkit-border-bottom-right-radius: 9px;-moz-border-radius-bottomright: 9px;}
-
 /* clearfix */
 #headerMenu_b:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
 #headerMenu_b {display: inline-block;}
-
-
-.nav {
-	text-align:center;
-}
-.main_nav {
-	border-top:2px solid #720072;
-	border-bottom:3px solid #6b006b;
-	background: url(http://detik.net.id/detik/image/sprite_1.gif) 0px -140px repeat-x #950095;
-	text-align:center;
-	padding: 0;
-	margin: 0;
-	list-style: none;
-	height:30px;
-}
-.main_nav li {
-	float:left;
-	border-right:1px solid #ab32ab;
-	border-left:1px solid #720072;
-}
-.main_nav li.first {
-	border-right:1px solid #ab32ab;
-	border-left:0px solid #720072;
-}
-.main_nav li.last {
-	border-right:0px solid #ab32ab;
-	border-left:1px solid #720072;
-}
-.main_nav li a {
-	padding: 7px 11px 7px 11px;
-	font:bold 13px tahoma, arial, helvetica;
-	color:white;
-	text-decoration:none;
-	display:block;
-	text-shadow: #660000 2px 2px 3px;
-}
-.main_nav li a:hover {
-	background: url(http://detik.net.id/detik/image/sprite_1.gif) 0px -190px repeat-x #f90000;
-}
-.main_nav li a.selected {
-	background: url(http://detik.net.id/detik/image/sprite_1.gif) 0px -1400px repeat-x #6b006b;
-	color:#FF0;
-}
-.main_nav li a.selected:hover {
-	background: url(http://detik.net.id/detik/image/sprite_1.gif) 0px -1400px repeat-x #6b006b;
-	color:#FF0;
-}
 
 
 
@@ -238,10 +187,19 @@ ul#topnav li a:hover, ul#topnav li a:active {text-decoration: underline;}
 .widthcontent_custom_4 {width: 230px;}
 .widthcontent_custom_5 {width: 240px;text-align: left;}
 
+.margin_mintop_8 	{margin-top:-8px !important;}
+
+.margin_top_40 	{margin-top:40px !important;}
+.margin_top_50 	{margin-top:50px !important;}
+.margin_top_60 	{margin-top:60px !important;}
+
 .padding_top_5 	{padding-top:5px !important;}
 .padding_top_10	{padding-top:10px !important;}
 .padding_top_15 {padding-top:15px !important;}
 .padding_top_20 {padding-top:20px !important;}
+.padding_top_40 {padding-top:40px !important;}
+.padding_top_60 {padding-top:60px !important;}
+.padding_top_80 {padding-top:80px !important;}
 
 .padding_right_22 {padding-right:22px !important;}
 
@@ -408,8 +366,8 @@ td.hb_1 img.img1 {
 #navlistnoline li { list-style: none;padding-left: 10px; background-image: url(../images/arrow02.jpg); background-repeat: no-repeat; background-position: 0 .6em;  padding-top:2px; padding-bottom: 2px; }
 #navlistnoline a, #navlistnoline a:visited, #navlistnoline a:link  { color: #004276; text-decoration: none; font-family:Georgia, "Times New Roman", Times, serif;font-weight:bold;}
 #navlistnoline a:hover	{ color:#B79C00; text-decoration: underline;}
-#news { margin-right: 0; margin-bottom:0; padding-right: 0; list-style: none; }
-#news li { padding-right: 15px;list-style: none; }
+#news { margin-bottom:8px; padding:5px; list-style: none;color:#555;border-top:1px solid #ccc;border-bottom:1px solid #ccc;background:#eee; }
+#news li { padding-right: 5px;list-style: none; }
 #news a, #news a:visited, #news a:link { text-decoration: none; font-family:Georgia, "Times New Roman", Times, serif;font-weight:bold;}
 #kcss a {
     font-family:tahoma, verdana, arial;
@@ -1092,3 +1050,92 @@ padding-bottom:10px;
 	top: 60px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#featured{ 
+	width:230px; 
+	padding-right:250px; 
+	position:relative; 
+	border:5px solid #ccc; 
+	height:250px; 
+	background:#fff;
+}
+#featured ul.ui-tabs-nav{ 
+	position:absolute; 
+	top:0; left:370px; 
+	list-style:none; 
+	padding:0; margin:0; 
+	width:107px; 
+}
+#featured ul.ui-tabs-nav li{ 
+	padding:1px 0; padding-left:13px;  
+	font-size:12px; 
+	color:#666; 
+}
+#featured ul.ui-tabs-nav li img{ 
+	float:left; margin:2px 5px; 
+	background:#fff; 
+	padding:2px; 
+	border:1px solid #eee;
+}
+#featured ul.ui-tabs-nav li span{ 
+	font-size:11px; font-family:Verdana; 
+	line-height:18px; 
+}
+#featured li.ui-tabs-nav-item a{ 
+	display:block; 
+	height:60px; 
+	color:#333;  background:#fff; 
+	line-height:20px;
+}
+#featured li.ui-tabs-nav-item a:hover{ 
+	background:#f2f2f2; 
+}
+#featured li.ui-tabs-selected{ 
+	background:url('../images/selected-item.gif') top left no-repeat;  
+}
+#featured ul.ui-tabs-nav li.ui-tabs-selected a{ 
+	background:#ccc; 
+}
+#featured .ui-tabs-panel{ 
+	width:400px; height:250px; 
+	background:#999; position:relative;
+}
+#featured .ui-tabs-panel .info{ 
+	position:absolute; 
+	top:180px; left:0; 
+	height:70px; 
+	background: url('../images/transparent-bg.png'); 
+}
+#featured .info h2{ 
+	font-size:18px; font-family:Georgia, serif; 
+	color:#fff; padding:5px; margin:0;
+	overflow:hidden; 
+}
+#featured .info p{ 
+	margin:0 5px; 
+	font-family:Verdana; font-size:11px; 
+	line-height:15px; color:#f0f0f0;
+}
+#featured .info a{ 
+	text-decoration:none; 
+	color:#fff; 
+}
+#featured .info a:hover{ 
+	text-decoration:underline; 
+}
+#featured .ui-tabs-hide{ 
+	display:none; 
+}

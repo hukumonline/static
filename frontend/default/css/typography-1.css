@@ -923,7 +923,7 @@ header#top aside a{
 	visibility:inherit; /* fixes IE7 'sticky bug' */
 }
 .sf-menu li {
-	float:right;
+	float:left;
 	position:relative;
 }
 .sf-menu a {
@@ -931,8 +931,8 @@ header#top aside a{
 	position: relative;
 }
 .sf-menu li:hover ul,.sf-menu li.sfHover ul {
-	left:0;
-	top:2.5em; /* match top ul list item height */
+	left:-6.9em;
+	top:2.6em; /* match top ul list item height */
 	z-index:99999;
 }
 ul.sf-menu li:hover li ul,ul.sf-menu li.sfHover li ul {
@@ -953,10 +953,9 @@ ul.sf-menu li li li:hover ul,ul.sf-menu li li li.sfHover ul {
 /*** menu skin ***/
 
 .sf-menu {
-	float:right;
+	float:left;
+	text-align:left;
 	font:bold 13px tahoma, arial, helvetica;
-	width:100%;
-	background:#00008B;
 }
 .sf-menu a {
 	padding:.75em 1em;
@@ -975,6 +974,7 @@ ul.sf-menu li li li:hover ul,ul.sf-menu li li li.sfHover ul {
 	margin-right:2px;
 }
 .sf-menu>li {
+	border-left:1px solid #fff;
 }
 .sf-menu li li {
 	background:#444;
