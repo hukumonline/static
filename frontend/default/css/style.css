@@ -126,7 +126,7 @@ header#up
 .topup {height: 40px;width: 410px;}
 .topdown {height: 40px;width: 410px;}
 
-ul#topnav {width:410px;margin:0;padding: 10px 30px 2px 0;list-style-type: none;}
+ul#topnav {width:410px;margin:0;padding: 10px 80px 2px 0;list-style-type: none;}
 ul#topnav li {display: inline;padding:0 1px 0 10px;}
 ul#topnav li a:link, ul#topnav li a:visited {text-decoration: none;color: #000;}
 ul#topnav li a:hover, ul#topnav li a:active {text-decoration: underline;}
