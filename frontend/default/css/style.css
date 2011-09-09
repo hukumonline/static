@@ -1110,14 +1110,14 @@ padding-bottom:10px;
 	background:#ccc; 
 }
 #featured .ui-tabs-panel{ 
-	width:370px; height:250px; 
-	background:#ff0; position:relative;
+	width:270px; height:250px; 
+	background:#999; position:relative;
 }
 #featured .ui-tabs-panel .info{ 
 	position:absolute; 
 	top:180px; left:0; 
 	height:70px; 
-	width:170px;
+	width:370px;
 	background: url('../images/transparent-bg.png'); 
 }
 #featured .info h2{ 
