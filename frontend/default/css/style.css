@@ -1110,8 +1110,8 @@ padding-bottom:10px;
 	background:#ccc; 
 }
 #featured .ui-tabs-panel{ 
-	width:370px; height:250px; 
-	background:#999; position:relative;
+	height:250px; 
+	position:relative;
 }
 #featured .ui-tabs-panel .info{ 
 	position:absolute; 
