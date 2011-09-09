@@ -1111,7 +1111,7 @@ padding-bottom:10px;
 }
 #featured .ui-tabs-panel{ 
 	width:370px; height:250px; 
-	background:#999; position:relative;overflow-y:hidden;
+	background:#999; position:relative;overflow-x:hidden;
 }
 #featured .ui-tabs-panel .info{ 
 	position:absolute; 
