@@ -584,7 +584,7 @@ td.hb_1 img.img1 {
 
 /* IndexBerita
 ---------------------------------------------------------------------*/
-#panelIndex { margin:18px 6px 0px 7px; float:left; width:500px;}
+#panelIndex { margin:5px 6px 0px 7px; float:left; width:500px;}
 #panelBerita { margin:18px 6px 0px 7px;	float:left;	width:290px;}
 #panelBerita ol li { font-weight:normal; display:block; margin:0px 4px 6px -13px; color:#333; list-style: none;}
 #panelBerita .jam {	color:#9e2b0c; padding-right:2px; font-size:11px;}
