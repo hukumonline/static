@@ -933,7 +933,6 @@ header#top aside a{
 .sf-menu li:hover ul,.sf-menu li.sfHover ul {
 	left:-6.9em;
 	top:2.6em; /* match top ul list item height */
-	z-index:99999;
 }
 ul.sf-menu li:hover li ul,ul.sf-menu li.sfHover li ul {
 	top: -999em;
@@ -1982,6 +1981,7 @@ div.wysiwyg iframe {
 	margin:1em 0;
 	min-height: 302px;
 	clear: both;
+	z-index:1;
 }
 
 .dataTables_processing {
